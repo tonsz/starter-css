@@ -1,0 +1,249 @@
+/* meyer css reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; */
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+/* ol,
+ul {
+  list-style: none;
+} */
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ~meyer css reset */
+
+/* some classless css */
+body {
+  margin: 5% auto;
+  background: #f2f2f2;
+  color: #444444;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  text-shadow: 0 1px 0 #ffffff;
+  max-width: 65%;
+  box-sizing: border-box;
+}
+code {
+  background: white;
+}
+a {
+  border-bottom: 1px solid #444444;
+  color: #444444;
+  text-decoration: none;
+}
+a:hover {
+  border-bottom: 0;
+}
+:focus {
+  outline: 0;
+}
+
+/* forms css  */
+button,
+input,
+select,
+textarea {
+  font-size: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+input,
+select {
+  display: block;
+}
+
+button,
+select,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="checkbox"],
+input[type="range"],
+input[type="radio"] {
+  cursor: pointer;
+}
+
+input,
+button,
+textarea,
+select {
+  color: #444444;
+  background-color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+input[type="text"] {
+  width: 150px;
+}
+select {
+  width: 170px;
+}
+textarea {
+  width: 100%;
+  height: 5rem;
+}
+
+[type="radio"],
+[type="checkbox"] {
+  display: initial;
+}
+
+[type="color"] {
+  padding: 0;
+}
+input:disabled {
+  cursor: not-allowed;
+}
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background-color: #fff;
+  border: 1px solid #444;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+  background-color: #f2f2f2;
+}
+
+button[disabled] {
+  background-color: #f2f2f2;
+  cursor: not-allowed;
+}
+
+/* lists  */
+ol,
+ul {
+  margin: 0.5rem 0 0.5rem 2rem;
+}
+/* ~lists  */
+/* ~forms  */
+/* ~some classless css */
